@@ -1,0 +1,7 @@
+{
+  "name": "test-website",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && printf '%s\\n' '<!doctype html><title>Test</title><p>Test</p>' > dist/index.html"
+  }
+}
